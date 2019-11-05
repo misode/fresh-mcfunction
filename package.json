@@ -1,0 +1,27 @@
+{
+    "name": "fresh-mcfunction",
+    "displayName": "Fresh Mcfunction",
+    "icon": "icon.png",
+    "description": "A fresh theme for Minecraft function files",
+    "version": "0.0.1",
+    "publisher": "Misode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/misode/fresh-mcfunction.git"
+    },
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fresh Mcfunction",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fresh-mcfunction.color-theme.json"
+            }
+        ]
+    }
+}
